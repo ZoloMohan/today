@@ -1,0 +1,42 @@
+body{
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: margin 1s;
+    -webkit-transition: margin 1s;
+    -moz-transition: margin 1s;;
+    -ms-transition: margin 1s;
+    -o-transition: margin 1s;
+    overflow: hidden;
+    overflow-y: hidden;
+    margin: 0 5%;
+    font-family: Raleway;
+    color: darkslategray;  
+}
+
+nav{
+    font-family: Questrial;
+}
+
+#brand-logo{
+    float: left;
+    width: 32px;
+    margin-right: 5px;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid darkslategray;
+}
+
+@media(max-width: 768px){
+    body{
+        margin: 0 1.5%;
+    }
+    .nav-link:hover{
+        border-bottom: none;
+    }
+}
+
+  

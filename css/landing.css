@@ -1,0 +1,131 @@
+body{
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: margin 1s;
+    -webkit-transition: margin 1s;
+    -moz-transition: margin 1s;;
+    -ms-transition: margin 1s;
+    -o-transition: margin 1s;
+    overflow: hidden;
+    overflow-y: hidden;
+    margin: 0 5%;
+    font-family: Raleway;
+    color: darkslategray;  
+}
+
+nav{
+    font-family: Questrial;
+}
+
+#brand-logo{
+    float: left;
+    width: 32px;
+    margin-right: 5px;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid darkslategray;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+#header{
+    text-align: center;
+}
+
+#moto{
+    margin-top: 7%;
+    transition: font 0.5s;
+    -webkit-transition: font 0.5s;  
+    -moz-transition: font 0.5s;  
+    -ms-transition: font 0.5s;  
+    -o-transition: font 0.5s;  
+    font-size: 98px;
+}
+
+#help{
+    font-size: 21px;
+}
+
+#log-or-sign{
+    text-align: center;
+}
+
+#sign-in-btn{
+    margin-top: 5%;
+    max-width: 400px;
+    width: 95%;
+    margin-bottom: 1%;
+    position: relative;
+    z-index: 2;
+}
+
+#pencilimg{
+    float: right;
+    width: 500px;
+    z-index: 1;
+}
+
+button.close, button.navbar-toggler{
+    outline: none;
+}
+
+@media(max-width: 768px){
+    body{
+        margin: 0 1.5%;
+    }
+    .nav-link:hover{
+        border-bottom: none;
+    }
+}
+
+@media(max-width: 680px){
+    #moto{
+        font-size: 82px;
+    }
+}
+
+@media(max-width: 540px){
+    #moto{
+        margin-top: 10%;
+        font-size: 72px;
+    }
+    #help{
+        margin-top: 5%;
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 450px){
+    #moto{
+        margin-top: 20%;
+        font-size: 62px;
+        line-height: 110%;
+    }
+    #sign-up-btn{
+        margin-top: 3%;
+    }
+}
+
+@media(max-width: 380px){
+    #moto{
+        font-size: 55px;
+        margin-top: 15%;
+    }    
+}
+
+@media(max-height: 568px){
+    #moto{
+        margin-top: 10%;
+        font-size: 40px;
+    }
+    #help{
+        margin-top: 5%;
+        font-size: 15px;
+    }
+}
